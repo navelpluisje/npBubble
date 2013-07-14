@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<meta charset="utf8">
+<head>
+	<title>npBubble test</title>
+</head>
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		background: url(http://subtlepatterns.com/patterns/tweed.png);
+	}
+	header {
+		padding: 5px 20px 10px;
+		background: rgba(255, 255, 255, 0.2);
+		color: rgba(255, 255, 255, 0.3);
+		text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+		box-shadow: 0 0 10px 0 rgba(0,0,0,0.8);
+	}
+	header h1 {
+		font-family: helvetica neue;
+		font-weight: 200;
+		font-size: 48px;
+	}
+	section div {
+		float: left;
+		margin: 5px 0 0 5px;
+	}
+</style>
+<body>
+	<header>
+		<h1>npBubble</h1>
+	</header>
+	<section>
+		<div id="npBubble">
+			<img src="http://navelpluisje.nl/img/ik.png"/>
+		</div>
+		<div id="npBubble2">
+			<img src="http://navelpluisje.nl/img/ik.png"/>
+		</div>
+	</section>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+	<script type="text/javascript" src="npBubble.js"></script>
+	<script type="text/javascript" src="test.js"></script>
+</body>
+</html>
